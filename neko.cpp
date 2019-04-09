@@ -8,7 +8,7 @@ class Neko
     string name;
 
   public:
-    Neko(string s);
+    Neko(string); // construct
     void naku() const;
 };
 
@@ -23,7 +23,7 @@ class Dog
     string name;
 
   public:
-    Dog(string s);
+    Dog(string);
     void naku() const;
 };
 
